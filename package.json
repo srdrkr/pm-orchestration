@@ -1,0 +1,24 @@
+{
+  "name": "pm-orchestration",
+  "version": "1.0.0",
+  "description": "Product Management orchestration tools and document generation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["product-management", "ai", "document-generation", "vercel"],
+  "author": "Jeremiah Weise",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.38.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@vercel/node": "^3.0.21",
+    "typescript": "^5.4.5",
+    "vercel": "^34.1.4"
+  }
+}
