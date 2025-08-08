@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "build": "tsc",
+    "build": "echo 'No build step needed for serverless functions'",
     "deploy": "vercel --prod"
   },
   "keywords": ["product-management", "ai", "document-generation", "vercel"],
