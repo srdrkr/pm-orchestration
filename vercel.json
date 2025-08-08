@@ -1,7 +1,1 @@
-{
-  "functions": {
-    "api/ai-generate.js": {
-      "runtime": "nodejs20.x"
-    }
-  }
-}
+{}
