@@ -1,4 +1,5 @@
 // /api/ai-generate.ts
+// AI-powered document generation endpoint
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import OpenAI from 'openai';
 
