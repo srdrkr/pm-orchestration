@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Orchestration API</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>PM Orchestration API</h1>
+    <p>Product Management orchestration tools and document generation APIs.</p>
+    
+    <h2>Available Endpoints</h2>
+    
+    <h3>POST /api/ai-generate</h3>
+    <p>AI-powered content generation endpoint.</p>
+    
+    <h4>Request Example:</h4>
+    <pre><code>{
+  "system": "You are a helpful product management assistant.",
+  "user": "Generate a PRD outline for a new feature."
+}</code></pre>
+    
+    <h4>Response Example:</h4>
+    <pre><code>{
+  "output": "# Product Requirements Document\n\n## Overview\n\n..."
+}</code></pre>
+    
+    <p>Set <code>OPENAI_API_KEY</code> environment variable for the API to work.</p>
+</body>
+</html>
